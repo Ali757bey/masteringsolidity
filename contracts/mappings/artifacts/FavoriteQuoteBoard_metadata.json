@@ -95,11 +95,11 @@
 	},
 	"sources": {
 		"contracts/mappings/FavoriteQuoteBoard.sol": {
-			"keccak256": "0x9ce07f41a4317ccf54dbb04775ca06c36b951d8c8a40d45794e4f516f13ff0a9",
+			"keccak256": "0x6be0801cd616db9007de5273b0729f4c22e7ef90f53ae57606060035eb19776b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://610c0463e24cd5133882e0342b79e4ab25a19b3c65696844dd3cdecc01e1ef8e",
-				"dweb:/ipfs/Qmbw9WbqzSyLzA5CRU7qUgHtjZpHvUbFjUBrBPnrXAWMUb"
+				"bzz-raw://74e2f0d9242259655a076887d3d3511dcf3d7a5bdc04bf88aaf1cb04fe5a45a4",
+				"dweb:/ipfs/QmPkPyh5HtCBPudJeh1i1qKESGWpC7yKV2ebvN35rYdhg8"
 			]
 		}
 	},
