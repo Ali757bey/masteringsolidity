@@ -1,0 +1,107 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "FavoriteQuoteBoard__AlreadySetQuote",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "FavoriteQuoteBoard__EmptyQuote",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"name": "getQuote",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"name": "hasSetQuote",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_quote",
+						"type": "string"
+					}
+				],
+				"name": "setQuote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mappings/FavoriteQuoteBoard.sol": "FavoriteQuoteBoard"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mappings/FavoriteQuoteBoard.sol": {
+			"keccak256": "0x9ce07f41a4317ccf54dbb04775ca06c36b951d8c8a40d45794e4f516f13ff0a9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://610c0463e24cd5133882e0342b79e4ab25a19b3c65696844dd3cdecc01e1ef8e",
+				"dweb:/ipfs/Qmbw9WbqzSyLzA5CRU7qUgHtjZpHvUbFjUBrBPnrXAWMUb"
+			]
+		}
+	},
+	"version": 1
+}
