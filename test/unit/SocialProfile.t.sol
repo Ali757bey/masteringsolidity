@@ -4,10 +4,16 @@ pragma solidity 0.8.19;
 import {Test} from "lib/forge-std/src/Test.sol";
 import {SocialProfile} from "src/mapping_and_struct/SocialProfile.sol";
 
+error SocialProfile__AlreadyRegistered();
+
 contract SocialProfileTest is Test {
     SocialProfile public social;
 
     address public ALI = makeAddr("ALI");
+
+    function setUp() public {
+        social = new SocialProfile();
+    }
 
     function testRegisterStoresCorrectProfile() public {
         // Arrange
