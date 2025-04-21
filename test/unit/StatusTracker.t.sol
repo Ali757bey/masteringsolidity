@@ -5,6 +5,8 @@ import {Test} from "lib/forge-std/src/Test.sol";
 import {StatusTracker} from "src/mappings/StatusTracker.sol";
 
 contract StatusTrackerTest is Test {
+    event StatusUpdated(address indexed user, string newStatus);
+
     StatusTracker public statusTracker;
 
     address public ALI = makeAddr("ALI");
